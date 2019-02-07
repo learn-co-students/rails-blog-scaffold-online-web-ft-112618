@@ -71,4 +71,5 @@ class PostsController < ApplicationController
     def post_params
       params.require(:post).permit(:title, :description)
     end
+    #Doesnt seem to want to submit...  adding some stuff.
 end
